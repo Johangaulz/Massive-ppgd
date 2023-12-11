@@ -14,9 +14,9 @@ const Footer = () => {
         <p>Copyrights © 2023 </p>
       </div>
       <div className="flex flex-col justify-between h-full">
-        <p>tentang ppgd</p>
+        <p className="">tentang ppgd</p>
         <div>
-          <p>tentang ppgd</p>
+          <p c>sadasd</p>
           <p>tentang ppgd</p>
           <p>tentang ppgd</p>
           <p>tentang ppgd</p>

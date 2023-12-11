@@ -122,7 +122,7 @@ function Navbar() {
             <ul className="flex flex-col font-medium p-3 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white k:bg-gray-800 ">
               <li>
                 <a
-                  href=""
+                  href="/"
                   className="block py-2 px-1 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl  "
                   aria-current="page"
                 >
@@ -131,7 +131,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/sertifikasi"
                   className="block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
                 >
                   Sertifikasi
@@ -139,7 +139,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/edukasi"
                   className="block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
                 >
                   Edukasi
@@ -147,7 +147,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/maps"
                   className="block py-2 px-3 p-0 text-black hover:text-red-500 font-['Poppins'] text-2xl"
                 >
                   Maps
@@ -155,7 +155,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/tentangkami"
                   className="block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
                 >
                   Tentang Kami
