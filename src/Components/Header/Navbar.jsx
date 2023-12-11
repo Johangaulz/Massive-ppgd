@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
@@ -89,12 +90,19 @@ function Navbar() {
             </button>
           </div>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button
-              type="button"
-              className="text-white  bg-red-700 hover:bg-red-700 font-medium rounded-xl px-4  text-center hover:text-white font-['Poppins'] w-28 h-10 text-2xl"
+            <NavLink
+              to="/login"
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "active block py-2 px-3 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl"
+                  : "text-white  bg-red-700 hover:bg-red-700 font-medium rounded-xl px-4  text-center hover:text-white font-['Poppins'] w-28 h-10 text-2xl"
+              }
             >
-              Masuk
-            </button>
+              Tentang Kami
+            </NavLink>
+
             <button
               data-collapse-toggle="navbar-cta"
               type="button"
@@ -121,45 +129,82 @@ function Navbar() {
           >
             <ul className="flex flex-col font-medium p-3 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white k:bg-gray-800 ">
               <li>
-                <a
-                  href="/"
-                  className="block py-2 px-1 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl  "
-                  aria-current="page"
+                <NavLink
+                  to="/"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "active block py-2 px-3 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl"
+                      : "block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
+                  }
                 >
                   Beranda
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/sertifikasi"
-                  className="block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
+                <NavLink
+                  to="/sertifikasi"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "active block py-2 px-3 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl"
+                      : "block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
+                  }
                 >
                   Sertifikasi
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/edukasi"
-                  className="block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
+                <NavLink
+                  to="/edukasi"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "active block py-2 px-3 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl"
+                      : "block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
+                  }
                 >
                   Edukasi
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/maps"
-                  className="block py-2 px-3 p-0 text-black hover:text-red-500 font-['Poppins'] text-2xl"
+                <NavLink
+                  to="/maps"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "active block py-2 px-3 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl"
+                      : "block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
+                  }
                 >
                   Maps
-                </a>
+                </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="/tentangkami"
                   className="block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
                 >
                   Tentang Kami
                 </a>
+              </li> */}
+              <li>
+                <NavLink
+                  to="/tentangkami"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "active block py-2 px-3 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl"
+                      : "block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
+                  }
+                >
+                  Tentang Kami
+                </NavLink>
               </li>
             </ul>
           </div>
