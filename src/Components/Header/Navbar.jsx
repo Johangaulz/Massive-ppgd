@@ -5,7 +5,7 @@ function Navbar() {
       <nav className="bg-white border-gray-200 h-28 p-2">
         <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="Home.jsx"
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <svg
@@ -96,11 +96,11 @@ function Navbar() {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "active block py-2 px-3 text-red-500 hover:text-red-500 font-['Poppins'] text-2xl"
+                  ? "active text-white  bg-red-700 hover:bg-red-700 font-medium rounded-xl px-4  text-center hover:text-white font-['Poppins'] w-28 h-10 text-2xl"
                   : "text-white  bg-red-700 hover:bg-red-700 font-medium rounded-xl px-4  text-center hover:text-white font-['Poppins'] w-28 h-10 text-2xl"
               }
             >
-              Tentang Kami
+              Masuk
             </NavLink>
 
             <button
@@ -184,14 +184,7 @@ function Navbar() {
                   Maps
                 </NavLink>
               </li>
-              {/* <li>
-                <a
-                  href="/tentangkami"
-                  className="block py-2 px-3 text-black hover:text-red-500 font-['Poppins'] text-2xl"
-                >
-                  Tentang Kami
-                </a>
-              </li> */}
+
               <li>
                 <NavLink
                   to="/tentangkami"
