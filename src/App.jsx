@@ -7,6 +7,7 @@ import Maps from "./Pages/Maps";
 import Tentangkami from "./Pages/Tentangkami";
 import Login from "./Pages/Login";
 import { NavLink } from "react-router-dom";
+import Dashboard from "./Pages/Admin/Dashboard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
           <Route path="/maps" element={<Maps />} />
           <Route path="/tentangkami" element={<Tentangkami />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </>
