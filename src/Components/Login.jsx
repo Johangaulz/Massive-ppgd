@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -28,7 +29,7 @@ const Login = () => {
             <input className="border p-2 px-32 rounded-2xl" type="text" />
           </div>
           <button className="border my-5 py-2 px-10 rounded-2xl bg-red-600 text-[#fff]">
-            Masuk
+            <Link to="/profileadmin"> Masuk</Link>
           </button>
           <p className="text-center">Lupa kata sandi?</p>
         </div>
