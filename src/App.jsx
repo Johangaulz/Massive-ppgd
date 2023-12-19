@@ -22,7 +22,6 @@ function App() {
           <Route path="/maps" element={<Maps />} />
           <Route path="/tentangkami" element={<Tentangkami />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/Dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </>
