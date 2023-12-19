@@ -9,6 +9,7 @@ import Login from "./Pages/Login";
 import { NavLink } from "react-router-dom";
 
 import Profileadmin from "./Pages/Admin/Profileadmin";
+import Adminsertifikasi from "./Pages/Admin/Adminsertifikasi";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,6 +25,7 @@ function App() {
           <Route path="/tentangkami" element={<Tentangkami />} />
           <Route path="/login" element={<Login />} />
           <Route path="/profileadmin" element={<Profileadmin />} />
+          <Route path="/adminsertifikasi" element={<Adminsertifikasi />} />
         </Routes>
       </BrowserRouter>
     </>

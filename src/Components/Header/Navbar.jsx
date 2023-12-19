@@ -2,17 +2,13 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav className="bg-white border-gray-200 h-28 p-2">
+      <nav className="bg-white border-gray-200 h-28 p-2 px-6">
         <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
-              src="src/assets/img/Logo.png"
-              alt="Logo"
-              className="w-36 h-20 "
-            />
+            <img src="src/assets/img/Logo.png" alt="Logo" className="w-16  " />
           </a>
           <div className="flex md:order-2">
             <button

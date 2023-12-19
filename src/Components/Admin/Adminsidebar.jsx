@@ -7,17 +7,17 @@ const Adminsidebar = () => {
       <div className="p-3 border-b border-blue-700 text-[#848484]">
         Navigasi Profil
       </div>
-      <Link to="#">
+      <Link to="/profileadmin">
         <div className="p-3 border-b border-blue-700 text-[#848484] hover:bg-[#BB2525] duration-300">
           Profil
         </div>
       </Link>
-      <Link to="#">
+      <Link to="/adminsertifikasi">
         <div className="p-3 border-b border-blue-700 text-[#848484] hover:bg-[#BB2525] duration-300">
           Sertifikasi
         </div>
       </Link>
-      <Link to="#">
+      <Link to="/adminrumahsakit">
         <div className="p-3  text-[#848484] hover:bg-[#BB2525] duration-300 rounded-b-3xl">
           Tambah Rumah Sakit
         </div>

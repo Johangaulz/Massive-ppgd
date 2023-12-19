@@ -9,7 +9,7 @@ const Tentangkami = () => {
       <div className="w-full flex flex-col items-center justify-center my-10">
         <p className="font-bold text-4xl text-black-00">Tentang Kami</p>
       </div>
-      <div className="leading-6 mx-20 px-36 text-lg font-['Poppins'] text-center justify-center mt-6">
+      <div className="leading-6 mx-20 px-36 text-lg font-['Poppins'] text-center justify-center mt-6 mb-10">
         <p>
           Selamat datang di EnviGrowth, sebuah platform terdepan yang
           didedikasikan untuk memberikan bantuan dan dukungan dalam situasi
@@ -26,7 +26,7 @@ const Tentangkami = () => {
         />
       </div>
 
-      <div className="leading-6 mx-20 px-36 text-lg font-['Poppins'] text-center justify-center mt-6 mb-10">
+      <div className="leading-6 mx-20 px-36 text-lg font-['Poppins'] text-center justify-center mt-10 mb-10">
         <p>
           EnviGrowth adalah sebuah portal pertolongan gawat darurat yang
           inovatif, dirancang untuk memberikan bantuan cepat dan efisien ketika
