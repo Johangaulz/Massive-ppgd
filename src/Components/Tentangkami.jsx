@@ -1,4 +1,7 @@
 import React from "react";
+import Img1 from "../assets/Img/tentangkami/1.png";
+import Img2 from "../assets/Img/tentangkami/2.png";
+import Img3 from "../assets/Img/tentangkami/3.png";
 
 const Tentangkami = () => {
   return (
@@ -6,7 +9,7 @@ const Tentangkami = () => {
       <div className="w-full flex flex-col items-center justify-center my-10">
         <p className="font-bold text-4xl text-black-00">Tentang Kami</p>
       </div>
-      <div className="leading-6 mx-20 px-36 text-lg font-['Poppins'] text-center justify-center mt-6 mb-10">
+      <div className="leading-6 mx-20 px-36 text-lg font-['Poppins'] text-center justify-center mt-6">
         <p>
           Selamat datang di EnviGrowth, sebuah platform terdepan yang
           didedikasikan untuk memberikan bantuan dan dukungan dalam situasi
@@ -17,9 +20,9 @@ const Tentangkami = () => {
 
       <div className="flex items-center justify-center">
         <img
-          src="src/assets//img/logo.png"
+          src="src/assets/img/Logo.png"
           alt="Logo"
-          className="max-w-full h-auto rounded-md"
+          className="max-w-full h-auto rounded-md "
         />
       </div>
 
@@ -31,70 +34,57 @@ const Tentangkami = () => {
           teknologi informasi yang berkomitmen untuk memberikan layanan terbaik
           demi keselamatan masyarakat.
         </p>
-        <p className="font-bold mt-4 text-2xl">Fitur Unggulan</p>
       </div>
 
-      {/* First set of three rectangles */}
-      <div className="flex justify-evenly space-x-8 mt-6">
-        <div className="image-card relative">
-          <img
-            src="src/assets/img/satu.png"
-            alt="Image 1"
-            className="w-40 h-auto mb-4 ml-4 rounded-md"
-          />
-          <div className="red-rectangle w-52 bg-red-500 flex items-center justify-center mr-4 rounded-md">
-            <p className="text-white mb-2 mt-2">Sertifikasi Profesional</p>
+      <div className="w-3/4 mx-auto flex flex-col ">
+        <p className="w-full text-center font-bold text-2xl mb-10">
+          Fitur Unggulan
+        </p>
+        <div className="w-full flex justify-evenly ">
+          <div className="flex flex-col gap-10 w-72">
+            <img className="w-full" src={Img1} alt="" srcset="" />
+            <p className="w-full text-center bg-red-700 py-4 text-white font-semibold rounded-lg">
+              Sertifikasi Profesional
+            </p>
+            <div className="w-full h-[450px] text-left bg-red-100 rounded-lg p-10">
+              <p>
+                Kami bekerja sama lembaga medis berlisensi yang memiliki
+                sertifikasi dan pengalaman luas dalam situasi darurat. Dengan
+                demikian, kami dapat memberikan layanan bantuan yang berkualitas
+                dan andal. Serta dapat menyediakan info mengenai sertifikasi
+                medis yang tersedia.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="image-card relative">
-          <img
-            src="src/assets/img/dua.png"
-            alt="Image 2"
-            className="w-40 h-auto mb-4 ml-6 rounded-md"
-          />
-          <div className="red-rectangle w-52 h-auto bg-red-500 flex items-center justify-center rounded-md">
-            <p className="text-white mb-2 mt-2">Edukasi</p>
+          <div className="flex flex-col gap-10 w-72">
+            <img className="w-full" src={Img2} alt="" srcset="" />
+            <p className="w-full text-center bg-red-700 py-4 text-white font-semibold rounded-lg">
+              Edukasi
+            </p>
+            <div className="w-full h-[450px] text-left bg-red-100 rounded-lg p-10">
+              <p>
+                Kami tidak hanya menangani keadaan darurat, tetapi juga
+                berkomitmen untuk meningkatkan pemahaman dan keterampilan
+                masyarakat dalam pertolongan pertama. Dengan sumber daya edukasi
+                interaktif kami, Anda dapat memperoleh pengetahuan penting yang
+                dapat menyelamatkan nyawa.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="image-card relative">
-          <img
-            src="src/assets/img/tga.png"
-            alt="Image 3"
-            className="w-40 h-auto mb-4 ml-8 rounded-md"
-          />
-          <div className="red-rectangle w-55 h-auto bg-red-500 flex items-center justify-center rounded-md">
-            <p className="text-white mb-2 mt-2 ml-2 mr-2">
+          <div className="flex flex-col gap-10 w-72">
+            <img className="w-full" src={Img3} alt="" srcset="" />
+            <p className="w-full text-center bg-red-700 py-4 text-white font-semibold rounded-lg">
               Cari Rumah Sakit Terdekat
             </p>
+            <div className="w-full h-[450px] text-left bg-red-100 rounded-lg p-10">
+              <p>
+                Fitur pencarian rumah sakit terdekat kami memungkinkan pengguna
+                dengan cepat menemukan fasilitas kesehatan yang diperlukan dalam
+                jarak yang sesuai. Informasi terkini dan peta interaktif
+                memastikan navigasi yang mudah dan efektif.
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div className="flex justify-evenly space-x-8 mt-6">
-        <div className="red-rectangle w-52 bg-red-50 flex items-center justify-center mr-4 rounded-md">
-          <p className="text-black ml-6 mr-5 mt-6 mb-20">
-            Kami bekerja sama lembaga medis berlisensi yang memiliki sertifikasi
-            dan pengalaman luas dalam situasi darurat. Dengan demikian, kami
-            dapat memberikan layanan bantuan yang berkualitas dan andal. Serta
-            dapat menyediakan info mengenai sertifikasi medis yang tersedia.
-          </p>
-        </div>
-        <div className="red-rectangle w-52 bg-red-50 flex items-center justify-center rounded-md">
-          <p className="text-black ml-6 mr-5 mt-6">
-            Kami tidak hanya menangani keadaan darurat, tetapi juga berkomitmen
-            untuk meningkatkan pemahaman dan keterampilan masyarakat dalam
-            pertolongan pertama. Dengan sumber daya edukasi interaktif kami,
-            Anda dapat memperoleh pengetahuan penting yang dapat menyelamatkan
-            nyawa.
-          </p>
-        </div>
-        <div className="red-rectangle w-52 bg-red-50 flex items-center justify-center ml-7 rounded-md">
-          <p className="text-black ml-6 mr-5 mb-20">
-            Fitur pencarian rumah sakit terdekat kami memungkinkan pengguna
-            dengan cepat menemukan fasilitas kesehatan yang diperlukan dalam
-            jarak yang sesuai. Informasi terkini dan peta interaktif memastikan
-            navigasi yang mudah dan efektif.
-          </p>
         </div>
       </div>
 
