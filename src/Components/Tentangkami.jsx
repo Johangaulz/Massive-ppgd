@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "../assets/Img/tentangkami/1.png";
-import Img2 from "../assets/Img/tentangkami/2.png";
-import Img3 from "../assets/Img/tentangkami/3.png";
+import Img1 from "../assets/Img/tentangkami/Sertifikasi.png";
+import Img2 from "../assets/Img/tentangkami/Edukasi.png";
+import Img3 from "../assets/Img/tentangkami/Maps.png";
 
 const Tentangkami = () => {
   return (
@@ -119,7 +119,7 @@ const Tentangkami = () => {
         <div className="flex flex-col items-center shadow-lg rounded-lg p-4 w-80 h-60">
           <div className="rounded-full w-20 h-20 mt-5 overflow-hidden">
             <img
-              src="src/assets/img/1.jpg"
+              src="src/assets/img/tentangkami/1.jpg"
               alt="Circle Image 1"
               className="w-full h-full object-cover"
             />
@@ -132,7 +132,7 @@ const Tentangkami = () => {
         <div className="flex flex-col items-center shadow-lg rounded-lg p-4 w-80 h-60">
           <div className="rounded-full mt-5 w-20 h-20 overflow-hidden">
             <img
-              src="src/assets/img/3.jpg"
+              src="src/assets/img/tentangkami/3.jpg"
               alt="Circle Image 2"
               className="w-full h-full object-cover"
             />
@@ -145,7 +145,7 @@ const Tentangkami = () => {
         <div className="flex flex-col items-center shadow-lg rounded-lg p-4 w-80 h-60">
           <div className="rounded-full mt-5 w-20 h-20 overflow-hidden">
             <img
-              src="src/assets/img/2.jpg"
+              src="src/assets/img/tentangkami/2.jpg"
               alt="Circle Image 3"
               className="w-full h-full object-cover"
             />
@@ -160,7 +160,7 @@ const Tentangkami = () => {
         <div className="flex flex-col items-center shadow-lg rounded-lg p-4 w-80 h-60 ml-10">
           <div className="rounded-full mt-5 w-20 h-20 overflow-hidden ">
             <img
-              src="src/assets/img/4.jpg"
+              src="src/assets/img/tentangkami/4.jpg"
               alt="Circle Image 4"
               className="w-full h-full object-cover"
             />
@@ -173,7 +173,7 @@ const Tentangkami = () => {
         <div className="flex flex-col items-center shadow-lg rounded-lg p-4 w-80 h-60 mr-10">
           <div className="rounded-full mt-5 w-20 h-20 overflow-hidden ">
             <img
-              src="src/assets/img/5.jpg"
+              src="src/assets/img/tentangkami/5.jpg"
               alt="Circle Image 5"
               className="w-full h-full object-cover"
             />

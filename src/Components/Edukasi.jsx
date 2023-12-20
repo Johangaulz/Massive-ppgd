@@ -24,25 +24,20 @@ const Edukasi = () => {
             Emergency
           </p>
           <p className=" text-left px-8 py-4 text-black font-semibold rounded-lg ml-20">
-            Emergency
+            Asma
           </p>
           <p className=" text-left px-8 py-4 text-gray-500 font-semibold rounded-lg ml-20">
-            Emergency
+            CPR
+          </p>
+
+          <p className=" text-left bg-red-700 px-8 py-4 text-white font-semibold rounded-lg ml-20">
+            Non - Emergency
+          </p>
+          <p className=" text-left px-8 py-4 text-black font-semibold rounded-lg ml-20">
+            Alergi
           </p>
           <p className=" text-left px-8 py-4 text-gray-500 font-semibold rounded-lg ml-20">
-            Emergency
-          </p>
-          <p className=" text-left px-8 py-4 text-gray-500 font-semibold rounded-lg ml-20">
-            Emergency
-          </p>
-          <p className=" text-left px-8 py-4 text-gray-500 font-semibold rounded-lg ml-20">
-            Emergency
-          </p>
-          <p className=" text-left px-8 py-4 text-gray-500 font-semibold rounded-lg ml-20">
-            Emergency
-          </p>
-          <p className=" text-left px-8 py-4 text-gray-500 font-semibold rounded-lg ml-20">
-            Emergency
+            Cidera Ringan
           </p>
         </div>
         <div className="w-3/4 mr-20">

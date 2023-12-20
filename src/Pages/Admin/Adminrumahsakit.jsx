@@ -2,7 +2,7 @@ import React from "react";
 import Adminsidebar from "../../Components/Admin/Adminsidebar";
 import Layout from "../Layout";
 
-const Adminsertifikasi = () => {
+const Adminrumahsakit = () => {
   return (
     <div>
       <Layout>
@@ -19,13 +19,13 @@ const Adminsertifikasi = () => {
                 <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                   <tr>
                     <th scope="col" className="px-6 py-3">
-                      Gambar Kegiatan
+                      Nama Rumah Sakit
                     </th>
                     <th scope="col" className="px-6 py-3">
-                      Nama Sertifikasi
+                      Alamat
                     </th>
                     <th scope="col" className="px-6 py-3">
-                      Periode Pendaftaran
+                      Link Url
                     </th>
                     <th scope="col" className="px-6 py-3">
                       Aksi
@@ -39,20 +39,14 @@ const Adminsertifikasi = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      <img
-                        src="src/assets/img/Sertifikasi/zoom.jpg"
-                        className="w-12"
-                        alt="Zoom"
-                      ></img>
+                      RS Aisyiyah Kudus
                       <p></p>
                     </th>
                     <td className="px-6 py-4 ">
-                      <p>Advanced Cardiovascular Life Support / Pelatihan</p>
-                      <p>Penyelamatan Jantung Lanjutan</p>
+                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
+                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
                     </td>
-                    <td className="px-6 py-4">
-                      15 Januari 2024 - 28 Maret 2024
-                    </td>
+                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit
@@ -70,19 +64,14 @@ const Adminsertifikasi = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      <img
-                        src="src/assets/img/Sertifikasi/ppgd.jpg"
-                        className="w-12"
-                        alt="ppgd"
-                      ></img>
+                      RS Aisyiyah Kudus
+                      <p></p>
                     </th>
-                    <td className="px-6 py-4">
-                      <p>Emergency First Respond / </p>
-                      <p>Pelatihan Tanggap Darurat Pertama</p>
+                    <td className="px-6 py-4 ">
+                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
+                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
                     </td>
-                    <td className="px-6 py-4">
-                      20 November 2023 - 10 November 2023
-                    </td>
+                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit
@@ -100,18 +89,14 @@ const Adminsertifikasi = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      <img
-                        src="src/assets/img/Sertifikasi/ppgd.jpg"
-                        className="w-12"
-                        alt="ppgd"
-                      ></img>
+                      RS Aisyiyah Kudus
+                      <p></p>
                     </th>
-                    <td className="px-6 py-4">
-                      Pelatihan Keselamatan Terhadap Kebakaran
+                    <td className="px-6 py-4 ">
+                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
+                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
                     </td>
-                    <td className="px-6 py-4">
-                      15 November 2023 - 28 November 2023
-                    </td>
+                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit
@@ -128,18 +113,14 @@ const Adminsertifikasi = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      <img
-                        src="src/assets/img/Sertifikasi/ppgd.jpg"
-                        className="w-12"
-                        alt="ppgd"
-                      ></img>
+                      RS Aisyiyah Kudus
+                      <p></p>
                     </th>
-                    <td className="px-6 py-4">
-                      Pelatihan Keselamatan Terhadap Kebakaran
+                    <td className="px-6 py-4 ">
+                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
+                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
                     </td>
-                    <td className="px-6 py-4">
-                      15 November 2023 - 28 November 2023
-                    </td>
+                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit
@@ -157,18 +138,14 @@ const Adminsertifikasi = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      <img
-                        src="src/assets/img/Sertifikasi/ppgd.jpg"
-                        className="w-12"
-                        alt="ppgd"
-                      ></img>
+                      RS Aisyiyah Kudus
+                      <p></p>
                     </th>
-                    <td className="px-6 py-4">
-                      Pelatihan Keselamatan Terhadap Kebakaran
+                    <td className="px-6 py-4 ">
+                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
+                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
                     </td>
-                    <td className="px-6 py-4">
-                      15 November 2023 - 28 November 2023
-                    </td>
+                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit
@@ -189,4 +166,4 @@ const Adminsertifikasi = () => {
   );
 };
 
-export default Adminsertifikasi;
+export default Adminrumahsakit;
