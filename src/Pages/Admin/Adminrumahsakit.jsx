@@ -64,14 +64,19 @@ const Adminrumahsakit = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      RS Aisyiyah Kudus
+                      RSUD Dr. Loekmono Hadi Kudus
                       <p></p>
                     </th>
                     <td className="px-6 py-4 ">
-                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
-                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
+                      <p>Jl Dr Lukmono Hadi No.19, Cobowo, </p>
+                      <p>
+                        Ploso, Kec. Jati, Kabupaten Kudus, Jawa Tengah 59348
+                      </p>
                     </td>
-                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
+                    <td className="px-6 py-4">
+                      <p> http://rsuddrloekmonohadi</p>
+                      <p>.kuduskab.go.id</p>
+                    </td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit
@@ -89,14 +94,16 @@ const Adminrumahsakit = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      RS Aisyiyah Kudus
+                      Rumah Sakit Islam Sunan Kudus
                       <p></p>
                     </th>
                     <td className="px-6 py-4 ">
-                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
-                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
+                      <p>Jl. Raya Kudus Permai No.1, Tersono, Garung Lor, </p>
+                      <p>Kec. Kaliwungu, Kabupaten Kudus, Jawa Tengah 59332</p>
                     </td>
-                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
+                    <td className="px-6 py-4">
+                      http://www.rsisunankudus.co.id
+                    </td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit
@@ -113,14 +120,17 @@ const Adminrumahsakit = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      RS Aisyiyah Kudus
+                      RSIA Harapan Bunda Kudus
                       <p></p>
                     </th>
                     <td className="px-6 py-4 ">
-                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
-                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
+                      <p>Jl. Raya Kudus - Jepara No.KM. 04, Garung Lor,</p>
+                      <p>Kec. Kaliwungu, Kabupaten Kudus, Jawa Tengah 59332</p>
                     </td>
-                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
+                    <td className="px-6 py-4">
+                      <p> https://www.instagram.com/</p>
+                      <p> rsiaharapanbundakudus/</p>
+                    </td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit
@@ -138,14 +148,16 @@ const Adminrumahsakit = () => {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      RS Aisyiyah Kudus
+                      RSIA Miriam Kudus
                       <p></p>
                     </th>
                     <td className="px-6 py-4 ">
-                      <p>Jl. Hos Cokroaminoto No.248, Mlati Norowito,</p>
-                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319</p>
+                      <p>Jl. Jend. Ahmad Yani No.58, Magersari, Panjunan,</p>
+                      <p>Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59317</p>
                     </td>
-                    <td className="px-6 py-4">http://rsaisyiyahkudus.com</td>
+                    <td className="px-6 py-4">
+                      http://www.rsiamiriam.com 2023
+                    </td>
                     <td className="px-6 py-4">
                       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         Edit

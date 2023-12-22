@@ -19,7 +19,8 @@ const Maps = () => {
       </div>
       <div className="w-full flex flex-col gap-10 mt-10 justify-center items-center px-32 mb-16">
         <p className=" font-bold text-4xl">
-          Daftar Rumah Sakit dan Nomor Telepon
+          Daftar Rumah Sakit
+          {/* dan Nomor Telepon */}
         </p>
         <div className="w-3/4 mx-auto grid grid-cols-2 gap-3">
           <div className=" h-32 flex flex-col bg-red-50 p-10 rounded-2xl shadow-md">
@@ -30,29 +31,33 @@ const Maps = () => {
             </p>
           </div>
           <div className=" h-32 flex flex-col bg-red-50 p-10 rounded-2xl shadow-md">
-            <p className="font-bold text-xl">RS Mitra Keluarga Bekasi</p>
-            <p className="font-normal text-xs">Jl. Ahmad Yani, RT.002/RW.011</p>
+            <p className="font-bold text-xl">RSUD Dr. Loekmono Hadi Kudus</p>
+            <p className="font-normal text-xs">
+              Jl Dr Lukmono Hadi No.19, Cobowo
+            </p>
             <p className="w-full text-right font-normal text-xs ">
               Lebih lanjut
             </p>
           </div>
           <div className=" h-32 flex flex-col bg-red-50 p-10 rounded-2xl shadow-md">
-            <p className="font-bold text-xl">RS Mitra Keluarga Bekasi</p>
-            <p className="font-normal text-xs">Jl. Ahmad Yani, RT.002/RW.011</p>
+            <p className="font-bold text-xl">Rumah Sakit Islam Sunan Kudus</p>
+            <p className="font-normal text-xs">Jl. Raya Kudus Permai No.1</p>
             <p className="w-full text-right font-normal text-xs ">
               Lebih lanjut
             </p>
           </div>
           <div className=" h-32 flex flex-col bg-red-50 p-10 rounded-2xl shadow-md">
-            <p className="font-bold text-xl">RS Mitra Keluarga Bekasi</p>
-            <p className="font-normal text-xs">Jl. Ahmad Yani, RT.002/RW.011</p>
+            <p className="font-bold text-xl">RSIA Harapan Bunda Kudus</p>
+            <p className="font-normal text-xs">
+              Jl. Raya Kudus - Jepara No.KM. 04
+            </p>
             <p className="w-full text-right font-normal text-xs ">
               Lebih lanjut
             </p>
           </div>
           <div className=" h-32 flex flex-col bg-red-50 p-10 rounded-2xl shadow-md">
-            <p className="font-bold text-xl">RS Mitra Keluarga Bekasi</p>
-            <p className="font-normal text-xs">Jl. Ahmad Yani, RT.002/RW.011</p>
+            <p className="font-bold text-xl">RSIA Miriam Kudus</p>
+            <p className="font-normal text-xs">Jl. Jend. Ahmad Yani No.58, </p>
             <p className="w-full text-right font-normal text-xs ">
               Lebih lanjut
             </p>

@@ -25,6 +25,7 @@ const Profileadmin = () => {
                 <input
                   type="text"
                   className="border-2 w-full px-3 py-2 rounded-md"
+                  placeholder="Dwi Amelia"
                 />
               </div>
               <div className="w-full flex flex-col gap-2">
@@ -34,6 +35,7 @@ const Profileadmin = () => {
                 <input
                   type="text"
                   className="border-2 w-full px-3 py-2 rounded-md"
+                  placeholder="Dwiamelia@gmail.com"
                 />
               </div>
             </div>

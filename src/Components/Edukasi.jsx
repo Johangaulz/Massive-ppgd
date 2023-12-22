@@ -41,9 +41,9 @@ const Edukasi = () => {
           </p>
         </div>
         <div className="w-3/4 mr-20">
-          <p className="w-full text-center font-bold text-4xl">CPR</p>
-          <img className="w-full" src={Img2} alt="" srcSet="" />
-          <p>
+          <p className="w-full text-center font-bold text-4xl mb-6">CPR</p>
+          <img className="w-full mb-6" src={Img2} alt="" srcSet="" />
+          <p className="gap-10 mb-2">
             Cidera ringan adalah kejadian umum yang dapat terjadi dalam
             kehidupan sehari-hari, baik itu di rumah, tempat kerja, atau selama
             aktivitas olahraga. Meskipun mungkin terasa sepele, pemahaman yang
@@ -55,17 +55,17 @@ const Edukasi = () => {
             memerlukan perhatian medis segera, cidera ringan tetap perlu diatasi
             dengan serius untuk memastikan pemulihan yang optimal.
           </p>
-          <p className=" font-bold text-2xl">Tanda dan Gejala Ringan</p>
-          <ol className="list-decimal">
+          <p className=" font-bold text-2xl mb-2">Tanda dan Gejala Ringan</p>
+          <ol className="list-decimal mb-2">
             <li>Sakit Kepala</li>
             <li>Pusing atau kehilangan keseimbangan</li>
             <li>Mual atau muntah</li>
             <li>Pusing atau Bingung</li>
             <li>Sensitivitas terhadap Cahaya atau Suara</li>
-            <li>Luka atau Memar Ringan:</li>
+            <li>Luka atau Memar Ringan</li>
           </ol>
-          <p className=" font-bold text-2xl">Cara merawat cidera ringan</p>
-          <ol className="list-decimal">
+          <p className=" font-bold text-2xl mb-2">Cara merawat cidera ringan</p>
+          <ol className="list-decimal mb-3">
             <li>Beri tubuh waktu untuk pulih dengan istirahat yang cukup.</li>
             <li>
               Gunakan kantung es atau kompres dingin untuk mengurangi
@@ -85,7 +85,7 @@ const Edukasi = () => {
               kesehatan jika diperlukan.
             </li>
           </ol>
-          <p>
+          <p className="mb-2">
             Jika gejala cidera ringan tidak membaik dalam beberapa hari atau
             malah memburuk, atau jika ada perubahan drastis dalam kondisi,
             segera hubungi profesional kesehatan untuk evaluasi lebih lanjut.
